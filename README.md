@@ -1,5 +1,7 @@
 # Bitnine-Coding-Test
 # Problem 1
+The fibonacci function is implemented using Dynamic Programming. This function is a recursive function that uses the concept of Dynamic Programming by checking if the result is already calculated or not and if it is not, it calculates it and saves it so the next time the same calculation is needed it can use the saved value.
+
 # Problem 2
 In 'Problem 2' folder the question is solved in three different ways: 
 
