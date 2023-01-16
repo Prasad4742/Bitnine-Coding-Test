@@ -1,6 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
-
 typedef struct Node
 {
     TypeTag type;
@@ -57,14 +54,3 @@ int calc(Node *node) {
     }
 }
 
-int main() {
-    Node *add = (*makeFunc(ADD))(10, 6);
-    Node *mul = (*makeFunc(MUL))(5, 4);
-    Node *sub = (*makeFunc(SUB))(mul, add);
-    Node *fibo = (*makeFunc(SUB))(sub, NULL);
-    printf("add : %d\n", calc(add));
-    printf("mul : %d\n", calc(mul));
-    printf("sub : %d\n", calc(sub));
-    printf("fibo : %d\n", calc(fibo));
-    return 0;
-}
