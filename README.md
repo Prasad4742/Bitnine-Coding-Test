@@ -1,6 +1,14 @@
 # Bitnine-Coding-Test
 # Problem 1
-The fibonacci function is implemented using Dynamic Programming. This function is a recursive function that uses the concept of Dynamic Programming by checking if the result is already calculated or not and if it is not, it calculates it and saves it so the next time the same calculation is needed it can use the saved value.
+(Copy the code from the Problem1 file and paste it to c++ compiler and run, there is no need of modification)
+The first function F(int n) gives n^th fibonacci number as output.
+The second function begins by creating a new node for the addition operation with the data fields set to 10 and 6.
+The next one is multiplication operation, with the data fields set to 5 and 4. 
+afterthat, another new node for the subtraction operation, having data fields with the results of the addition and multiplication operations.
+
+To access the integer values directly from node: int value = node->data; is used.
+
+
 
 # Problem 2
 In 'Problem 2' folder the question is solved in three different ways: 
