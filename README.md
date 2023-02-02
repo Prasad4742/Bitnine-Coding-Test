@@ -1,9 +1,13 @@
 # Bitnine-Coding-Test
 # Problem 1
 (Copy the code from the Problem1 file and paste it to c++ compiler and run, there is no need of modification)
+
 The first function F(int n) gives n^th fibonacci number as output.
+
 The second function begins by creating a new node for the addition operation with the data fields set to 10 and 6.
+
 The next one is multiplication operation, with the data fields set to 5 and 4. 
+
 afterthat, another new node for the subtraction operation, having data fields with the results of the addition and multiplication operations.
 
 To access the integer values directly from node: int value = node->data; is used.
